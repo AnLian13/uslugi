@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Описания услуг эксперта</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100px;
+            background-color: blue;
+        }
+
+        .container {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            /* gap: 100px 50px; */
+            padding: 100px 50px;
+        }
+
+        .container .card {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            width: 350px;
+            height: 300px;
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+            transition: 0.5s;
+        }
+
+        .container .card:hover {
+            height: 400px;
+        }
+
+        .container .card .imgBx {
+            position: absolute;
+            top: 20px;
+            width: 300px;
+            height: 220px;
+            /* background: #333; */
+            border-radius: 12px;
+            overflow: hidden;
+            transition: 0.5s;
+        }
+
+        .container .card:hover .imgBx {
+            top: -100px;
+            scale: 0.75;
+            box-shadow: 0 15px 45px rgba(0,0,0,0.2);
+        }
+
+        .container .card .imgBx img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .container .card .content {
+            position: absolute;
+            top: 252px;
+            width: 100%;
+            padding: 0 30px;
+            height: 35px;
+            overflow: hidden;
+            text-align: center;
+            transition: 0.5s;
+        }
+        .container .card:hover .content {
+            top: 130px;
+            height: 250px;
+        }
+
+        .container .card .content h2 {
+            font-size: 1.5em;
+            font-weight: 700;
+            color: var(--clr);
+        }
+
+        .container .card .content p {
+            color: #333;
+            font-size: 1.05em;
+        }
+        .container .card .content a {
+            position: relative;
+            top: 15px;
+            display: inline-block;
+            padding: 12px 25px;
+            background: var(--clr);
+            color: #fff;
+            font-weight: 500;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="card" style="--clr:#2dd100;">
+        <div class="imgBx">
+            <img src="Screenshot_20240128-210635_1.png">
+        </div>
+        <div class="content">
+            <h2>Гадание на Таро</h2><br>
+            <p>Гадание на оригинальной дизайнерской колоде, на которой всё сбывается!
+            </p>
+            <a href="https://olgina-04.wixsite.com/website/заказать-консультацию">Заказать</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="--clr:#030bf4;">
+        <div class="imgBx">
+            <img src="9693cb5a7c3afaf41bdf2b429bb62b11.jpeg">
+        </div>
+        <div class="content">
+            <h2>Улучшение отношений с людьми</h2><br>
+            <p>Вы сможете улучшить отношения с окружающими, с родными, друзьями, коллегами по работе. <br> 
+            </p>
+            <a href="https://olgina-04.wixsite.com/website/заказать-консультацию">Заказать</a>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+        <div class="card" style="--clr:#2dd100;">
+        <div class="imgBx">
+            <img src="4d2a430036335db1844c22a9f2d3f514.jpeg">
+        </div>
+        <div class="content">
+            <h2>Регрессивный гипноз</h2><br>
+            <p>Во время сеанса вы сможете не просто посмотреть прошлые воплощения, но и изменить и откорректировать свои прошлые ошибки и промахи реальности.
+                
+            </p>
+            <a href="https://olgina-04.wixsite.com/website/заказать-консультацию">Заказать</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="--clr:#f40388;">
+        <div class="imgBx">
+            <img src="327358f41619aced84b8f28707615c3e.jpeg">
+        </div>
+        <div class="content">
+            <h2>Коррекция лишнего веса</h2><br>
+            <p>Лишний вес является проблемой психосоматического плана. И пока мы не понимаем для чего нашему телу нужен лишний вес удерживать, вес не станет снижаться и будут постоянные срывы. <br> 
+            </p>
+            <a href="https://olgina-04.wixsite.com/website/заказать-консультацию">Заказать</a>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
